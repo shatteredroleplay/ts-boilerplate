@@ -1,5 +1,5 @@
-import * as Controllers from './modules/index';
+import * as Index from './modules/index';
 
 (async () => {
-    await Controllers.Init();
+    await Index.Init();
 })();
